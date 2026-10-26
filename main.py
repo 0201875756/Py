@@ -3,6 +3,6 @@ b = int(input("type your number"))
 if b == a :
     print("true")
 elif b < a :
-    print("تسا مک دحاو",(a - b))
+    print((a - b), "واحد کمتر است")
 else :
-    print("تسا دایز دحاو",(b - a))
+    print((b - a), "واحد بیشتر است")
